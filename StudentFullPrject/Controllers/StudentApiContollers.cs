@@ -73,6 +73,8 @@ namespace StudentFullPrject.Controllers
             if(NewStudentDTO==null||string.IsNullOrEmpty(NewStudentDTO.Name)||NewStudentDTO.Age<0||NewStudentDTO.Grade<0)
             {
                 return BadRequest("Invaled Student Data");
+
+
             }
 
 
