@@ -38,7 +38,6 @@ namespace StudentDataAccessLayer
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
 
-
                         while (reader.Read())
                         {
                             StudentList.Add(new StudentDTO(

@@ -69,7 +69,6 @@ namespace StudentBusinessLayer
         public bool Save()
         {
             switch (Mode)
-
             {
                 case enMode.AddNew:
                     if (_AddNewStudent())
